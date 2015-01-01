@@ -23,9 +23,9 @@ var AppModel = Backbone.Model.extend({
       this.get('songQueue').push(song);
 
       //check if this is the first item in the songQueue, and if so, plays the song immediately after adding it
-      if(this.get('songQueue').length === 1) {
-        this.get('songQueue').playFirst();
-      }
+      // if(this.get('songQueue').length === 1) {
+      //   this.get('songQueue').playFirst();
+      // }
     }, this);
 
 
