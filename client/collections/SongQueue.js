@@ -4,4 +4,6 @@ var SongQueue = Songs.extend({
   initialize: function(){
   }
 
+  //listen for ended, enqueue and dequeue event
+
 });
